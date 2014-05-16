@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>index</title>
+  </head>
+ 
+  <body>   
+    <p id="text"></p>
+    <a id="foo" href="javascript:void(0);">send foo</a> <br />
+    <a id="secure" href="javascript:void(0);">send to protection receiver</a>
+    <a id="login" href="javascript:void(0);">login</a>
+    <script type="application/dart" src="index.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
