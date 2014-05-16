@@ -4,7 +4,7 @@ import 'dart:html';
 import 'package:force/force_browser.dart';
 
 void main() {
-  ForceClient forceClient = new ForceClient(usePolling: true);
+  ForceClient forceClient = new ForceClient();
   forceClient.connect();
   
   int count = 0;
