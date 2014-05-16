@@ -9,4 +9,5 @@ It is an extension of the hello world example of dart force.
 
 Send a counter to the server and distribute it to all clients, they will print the message in the console.
 
+Look at the screenshot how you can test it in the browser!
 ![screenie!](https://raw.github.com/jorishermans/dart-force-hello-auth/master/screenshots/example.png)
