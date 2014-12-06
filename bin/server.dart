@@ -28,7 +28,7 @@ void main() {
   
   fs.on('secure', (e, sendable) { 
       sendable.send('notifications', e.json);
-    }, authentication: true);
+    }, roles: ["ADMIN"]);
   
   fs.start();
 }
